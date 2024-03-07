@@ -1,0 +1,28 @@
+# source:tsinghua
+# help: https://mirrors.tuna.tsinghua.edu.cn/help/pypi/
+# pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+# OR
+# python -m pip install --upgrade pip
+# pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+# database and cache
+# diskcache  基于sqlite, 支持FanoutCache分片, Deque双端队列, Index, Lock, RLock
+# cachelib  cachelib.file.FileSystemCache 文件缓存, pickle.dump
+# cacheout  线程安全的缓存库
+# flask-caching  替换kp_cache的工厂模式
+# PyDO need
+dsnparse
+PyMySQL
+# apt install gcc libpq-dev
+# psycopg2
+
+#工具包 Start
+# loguru
+#字典，可迭代项，字符串和其他对象的深层差异
+# deepdiff
+# retrying
+# python-dotenv
+#工具包 End
+
+
+#####base End

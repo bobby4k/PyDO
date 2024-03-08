@@ -199,6 +199,8 @@ class BasePyDO:
         """
         # 预设插入数据行数
         len_rows = 0
+        if len(rows) == 0:
+            raise ValueError("empty rows")
 
         if isinstance(rows, dict):
             fields = list(rows.keys())

@@ -506,7 +506,7 @@ class BasePyDO:
                 vlist = [f"{orderbys[0]} {orderbys[1]}"]
         elif vtype == list:
             for orow in orderbys:
-                vlist += self.orderby_mutate(orow)
+                vlist += BasePyDO.orderby_mutate(orow)
         elif orderbys is None:
             pass
         else:
